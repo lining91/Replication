@@ -60,6 +60,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\code\DeepReplication.h" />
+    <ClInclude Include="..\code\ShallowReplication.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\code\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
